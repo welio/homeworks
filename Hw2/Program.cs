@@ -25,6 +25,5 @@
     
     double profitLoss = (int)trcType < 1 ? Calculations.CalculateProfitLoss(price, bookedPrice, nominal) : 0;
     
-
 // display result for user
     Calculations.ShowResult(transType, nominal, price, bookedPrice, currentValue, profitLoss);
